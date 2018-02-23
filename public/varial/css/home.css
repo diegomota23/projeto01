@@ -1,0 +1,155 @@
+
+/* 
+    Created on : 15/02/2018, 12:36:15
+    Author     : diego mota
+*/
+/* laiaute pertencente principal do meio*/
+body {visibility:hidden}
+
+.container-meio{
+    height: 100%;
+}
+.fundo-meio{
+
+}
+.corpo{
+    height: 87%;
+}
+/*modifica a parte esquerda*/
+.content-esquerdo{
+    float: left;
+    width: 14%;
+    height: 101%;
+}
+.slogan{
+    height: 9%;
+}
+.moca{
+    height: 22%;
+    margin: 8% 14%;
+}
+
+.content-direito{
+    float:  right;
+    height: 100%;
+    width: 86%;
+}
+.menu-navegacao{
+    height: 7%;
+}
+.pri{
+    margin-left: 11%;
+}
+.content-meio{
+    height:  100%;
+    width: 100%;
+}
+.meio{
+    float:  left;
+    border-style:  dashed;
+    height: 89%;
+    width: 81%;
+}
+/*fim parte esquerda*/
+
+/*leiaute da barra direita*/
+.menu-direito{
+    float:  right;
+    height: 87%;
+    width: 19%;
+}
+.t-funcoes{
+    height: 30%;
+    width: 100%;
+    color: #fcfefd;
+    text-align:center;
+}
+.t-funcoes tr th img{
+    border-style:  dashed;
+    margin-top: 3%;
+    height: 57%;
+}
+.suporte{width: 32%;height: 51%;background-color: #2ab27ba1;}
+.patrimonio{width: 32%;height: 51%;background-color: #cbb956a3;}
+.almoxarifado{width: 32%;height: 51%;background-color: #a944428c;}
+.lista-tel{width: 32%;height: 51%;background-color: #3c763d9e;}
+.email{width: 32%;height: 51%;background-color: #8a6d3b9e;}
+
+/*quando o mouse passar por cima*/
+.suporte:hover{background-color: #2ab27be3;}
+.patrimonio:hover{background-color: #cbb956de;}
+.almoxarifado:hover{background-color: #a94442ba;}
+.lista-tel:hover{background-color: #3c763dd6;}
+.email:hover{background-color: #8a6d3bc9;}
+
+.calendario{
+    margin-top: 7%;
+}
+/*fim barra direita*/
+.rodape{
+    height: 11%;background-color: #ddd;margin-top: 1%;
+}
+.rodape p{
+    text-align:  center;
+    margin: 0;
+    position:  relative;
+    top: 16%;
+    left: 9%;
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    .container-meio{
+        height: 83%;
+    }
+    .fundo-meio{
+
+    }
+    .corpo{
+        height: 87%;
+    }
+    /*modifica a parte esquerda*/
+    .content-esquerdo{
+        float: left;
+        width: 14%;
+        height: 101%;
+    }
+    .slogan{
+        height: 9%;
+    }
+    .moca{
+        height: 22%;
+        margin: 8% 14%;
+    }
+
+    .content-direito{
+        float:  right;
+        height: 100%;
+        width: 86%;
+    }
+    .menu-navegacao{
+        height: 7%;
+    }
+    .pri{
+        margin-left: 11%;
+    }
+    .content-meio{
+        height:  100%;
+        width: 100%;
+    }
+    .meio{
+        float:  left;
+        border-style:  dashed;
+        height: 87%;
+        width: 81%;
+    }
+    .menu-direito{
+        float:  right;
+        border-style:  dashed;
+        height: 87%;
+        width: 19%;
+    }
+    .rodape{
+
+    }
+}
